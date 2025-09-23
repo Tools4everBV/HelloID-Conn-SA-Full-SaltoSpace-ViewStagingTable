@@ -1,0 +1,164 @@
+[
+    {
+        "key":  "formRow",
+        "templateOptions":  {
+
+                            },
+        "fieldGroup":  [
+                           {
+                               "key":  "checkboxInputErrors",
+                               "templateOptions":  {
+                                                       "label":  "Only show errors",
+                                                       "useSwitch":  true,
+                                                       "checkboxLabel":  ""
+                                                   },
+                               "type":  "boolean",
+                               "defaultValue":  true,
+                               "summaryVisibility":  "Show",
+                               "requiresTemplateOptions":  true,
+                               "requiresKey":  true,
+                               "requiresDataSource":  false
+                           },
+                           {
+                               "key":  "checkboxInputProcess",
+                               "templateOptions":  {
+                                                       "label":  "Only show needs to be processed by Salto",
+                                                       "useSwitch":  true,
+                                                       "checkboxLabel":  ""
+                                                   },
+                               "type":  "boolean",
+                               "summaryVisibility":  "Show",
+                               "requiresTemplateOptions":  true,
+                               "requiresKey":  true,
+                               "requiresDataSource":  false
+                           }
+                       ],
+        "type":  "formrow",
+        "requiresTemplateOptions":  true,
+        "requiresKey":  true,
+        "requiresDataSource":  false
+    },
+    {
+        "key":  "gridStaging",
+        "templateOptions":  {
+                                "label":  "Staging database",
+                                "required":  false,
+                                "grid":  {
+                                             "columns":  [
+                                                             {
+                                                                 "headerName":  "To Be Processed By Salto",
+                                                                 "field":  "ToBeProcessedBySalto"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Processed Date Time",
+                                                                 "field":  "ProcessedDateTime"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Error Code",
+                                                                 "field":  "ErrorCode"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Error Message",
+                                                                 "field":  "ErrorMessage"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Action",
+                                                                 "field":  "Action"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Ext ID",
+                                                                 "field":  "ExtID"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Dt Activation",
+                                                                 "field":  "dtActivation"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Dt Expiration",
+                                                                 "field":  "dtExpiration"
+                                                             },
+                                                             {
+                                                                 "headerName":  "First Name",
+                                                                 "field":  "FirstName"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Last Name",
+                                                                 "field":  "LastName"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Dummy1",
+                                                                 "field":  "Dummy1"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Dummy2",
+                                                                 "field":  "Dummy2"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Dummy3",
+                                                                 "field":  "Dummy3"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Dummy4",
+                                                                 "field":  "Dummy4"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Dummy5",
+                                                                 "field":  "Dummy5"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Title",
+                                                                 "field":  "Title"
+                                                             },
+                                                             {
+                                                                 "headerName":  "Ext Access Level ID List",
+                                                                 "field":  "ExtAccessLevelIDList"
+                                                             }
+                                                         ],
+                                             "height":  600,
+                                             "rowSelection":  "single"
+                                         },
+                                "dataSourceConfig":  {
+                                                         "dataSourceGuid":  "$dataSourceGuid_0",
+                                                         "input":  {
+                                                                       "propertyInputs":  [
+                                                                                              {
+                                                                                                  "propertyName":  "onlyShowErrors",
+                                                                                                  "otherFieldValue":  {
+                                                                                                                          "otherFieldKey":  "checkboxInputErrors"
+                                                                                                                      }
+                                                                                              },
+                                                                                              {
+                                                                                                  "propertyName":  "onlyShowNeedProcess",
+                                                                                                  "otherFieldValue":  {
+                                                                                                                          "otherFieldKey":  "checkboxInputProcess"
+                                                                                                                      }
+                                                                                              }
+                                                                                          ]
+                                                                   }
+                                                     },
+                                "useFilter":  true,
+                                "useDefault":  false,
+                                "searchPlaceHolder":  "Search this data",
+                                "allowCsvDownload":  false
+                            },
+        "type":  "grid",
+        "summaryVisibility":  "Show",
+        "requiresTemplateOptions":  true,
+        "requiresKey":  true,
+        "requiresDataSource":  true
+    },
+    {
+        "key":  "textInput",
+        "templateOptions":  {
+                                "label":  "Reporting only",
+                                "required":  true,
+                                "minLength":  1,
+                                "readonly":  true
+                            },
+        "type":  "input",
+        "summaryVisibility":  "Show",
+        "requiresTemplateOptions":  true,
+        "requiresKey":  true,
+        "requiresDataSource":  false
+    }
+]
