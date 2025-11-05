@@ -1,0 +1,70 @@
+[
+    {
+        "key":  "Dummy1",
+        "type":  0
+    },
+    {
+        "key":  "ErrorCode",
+        "type":  0
+    },
+    {
+        "key":  "Title",
+        "type":  0
+    },
+    {
+        "key":  "dtActivation",
+        "type":  0
+    },
+    {
+        "key":  "ProcessedDateTime",
+        "type":  0
+    },
+    {
+        "key":  "Dummy2",
+        "type":  0
+    },
+    {
+        "key":  "LastName",
+        "type":  0
+    },
+    {
+        "key":  "Dummy5",
+        "type":  0
+    },
+    {
+        "key":  "dtExpiration",
+        "type":  0
+    },
+    {
+        "key":  "Dummy3",
+        "type":  0
+    },
+    {
+        "key":  "Dummy4",
+        "type":  0
+    },
+    {
+        "key":  "ToBeProcessedBySalto",
+        "type":  0
+    },
+    {
+        "key":  "ExtID",
+        "type":  0
+    },
+    {
+        "key":  "ExtAccessLevelIDList",
+        "type":  0
+    },
+    {
+        "key":  "Action",
+        "type":  0
+    },
+    {
+        "key":  "FirstName",
+        "type":  0
+    },
+    {
+        "key":  "ErrorMessage",
+        "type":  0
+    }
+]

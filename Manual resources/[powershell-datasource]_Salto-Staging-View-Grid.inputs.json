@@ -1,0 +1,18 @@
+[
+    {
+        "description":  null,
+        "translateDescription":  false,
+        "inputFieldType":  1,
+        "key":  "onlyShowErrors",
+        "type":  0,
+        "options":  0
+    },
+    {
+        "description":  null,
+        "translateDescription":  false,
+        "inputFieldType":  1,
+        "key":  "onlyShowNeedProcess",
+        "type":  0,
+        "options":  0
+    }
+]
