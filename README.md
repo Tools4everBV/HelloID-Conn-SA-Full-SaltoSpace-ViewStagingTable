@@ -51,8 +51,5 @@ This Delegated Form uses the following resources in order to run
 ### Powershell data source 'Salto-Staging-View-Grid'
 This Powershell data source runs an SQL select query on the Salto staging database.
 
-## Getting help
-_If you need help, feel free to ask questions on our [forum](https://forum.helloid.com/forum/helloid-connectors/service-automation/518-helloid-sa-active-directory-report-ad-accounts-recently-created)_
-
 ## HelloID Docs
 The official HelloID documentation can be found at: https://docs.helloid.com/
